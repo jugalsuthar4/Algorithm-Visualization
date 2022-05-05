@@ -20,8 +20,7 @@ const Visualizer = () => {
 	// state of the array
 	const [mainArray, setMainArray] = useState([]);
 	const [arrayLength, setArrayLength] = useState(15);
-	const [animationSpeed, setAnimationSpeed] = useState(1000
-		);
+	const [animationSpeed, setAnimationSpeed] = useState(100);
 	const [error,setError]=useState("");
 	const [text,setText]=useState("");
 	const [algo, setAlgo] = useState('mergesort');
@@ -219,7 +218,6 @@ const Visualizer = () => {
 						<option value='insertionsort'>insertion sort</option>
 						<option value='selectionsort'>selection sort</option>
 						<option value='quicksort'>quick sort</option>
-						<option value='heapsort'>heap sort</option>
 					</select>
 				</div>
 				<div class="mb-3 mx-auto">

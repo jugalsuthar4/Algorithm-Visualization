@@ -43,7 +43,7 @@ class BinarySearch extends Component {
     }
     randomNumberArray.sort((a, b) => a.value - b.value);
 
-    console.log(randomNumberArray);
+    //console.log(randomNumberArray);
     return randomNumberArray;
   };
 

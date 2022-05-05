@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbarr from "../../../../components/Navbar"
+import Navbarr from "../../../../components/Navbar";
 import { visualize } from "./visualization";
 import { board } from "./board";
 
@@ -16,7 +16,7 @@ export default class nQueens extends Component {
   render() {
     return (
       <div>
-        <Navbarr/>
+        <Navbarr />
         <div className="container">
           <div className="row">
             <div className="col-sm-8">

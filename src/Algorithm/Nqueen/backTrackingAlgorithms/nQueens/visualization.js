@@ -1,6 +1,6 @@
 import { getNQueensAnimations } from "../backTrackingAlgorithms";
 
-var ANIMATION_SPEED_SECONDS = 0.1;
+var ANIMATION_SPEED_SECONDS = 1;
 const CROWN_COLOR = "#0066CC";
 const SAFE = "#2ECC71";
 const size = 8;

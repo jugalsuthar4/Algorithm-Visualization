@@ -18,6 +18,7 @@ function Queue() {
   const enqueue = () => {
     if (elements.length < 11) {
       let newElement = prompt("Enter value");
+
       if (newElement == "" || onlySpaces(newElement)) {
         alert("Please enter a value");
         return;
